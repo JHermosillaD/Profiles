@@ -31,7 +31,6 @@
 
 (setq inhibit-startup-message t)   
 (global-display-line-numbers-mode 1) 
-(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 
 ;; Enable elpy
 (elpy-enable)
